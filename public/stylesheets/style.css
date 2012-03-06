@@ -180,5 +180,5 @@ input[type="submit"]:hover {
 }
 .user .name {
   margin-bottom: 5px;
-  font-weight: bold;
 }
+.user .name span { font-weight: bold; }

@@ -57,4 +57,7 @@ Club40::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+  
+  
+  config.time_zone = 'Eastern Time (US & Canada)'
 end
