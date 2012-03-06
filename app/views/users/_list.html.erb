@@ -1,0 +1,14 @@
+<div id="user_list">
+<div id="users">
+<% @list.each do |l| %>
+  <% if l.name != "" %>
+  <div id="<%= l.id %>" class="user">
+	<div class="name"><%= l.name %></div>
+	<% if l.story != "" %>
+	<div class="story hidden"><%= l.story %></div>
+  	<% end %>
+  </div>
+  <% end %>
+<% end %>
+</div>
+</div>

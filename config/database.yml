@@ -1,0 +1,24 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: club40_development
+  username: root
+  password: d3pl0y
+  socket: /tmp/mysql.sock
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: club40_test
+  username: root
+  password: d3pl0y
+  socket: /tmp/mysql.sock
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: club40_production
+  username: root
+  password: d3pl0y
+  socket: /var/run/mysqld/mysqld.sock

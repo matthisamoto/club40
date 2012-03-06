@@ -1,0 +1,15 @@
+<div id="user_input">
+<nav>
+<%= form_for(:user, :url => {:action => 'create'}) do |f| %>
+  <ul>
+    <li><%= f.text_field(:name, :class => "user_name", :value => "Name", :maxlength => 40) %> </li>
+    <li><%= f.text_area(:wish, :class => "user_wish", :value => "Leave your wish for Gretchen", :maxlength => 140) %> </li>
+    <li><%= submit_tag("submit")%> 
+	
+		
+	</li>
+	<li class="mck"><a href="http://mckinney.com" class="tenperc" target="_blank">a product of McKINNEY TEN PERCENT</a></li>
+  </ul>
+<% end %>
+</nav>
+</div>
